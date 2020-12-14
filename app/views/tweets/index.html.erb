@@ -9,7 +9,7 @@
 
 <%= button_to 'ログアウト', destroy_user_session_path, method: :delete %>
 
-<%= link_to "新規投稿へ", new_tweet_path %>
+<%= link_to "新規投稿", new_tweet_path %>
 
 <div class="tweets-container">
   <% @tweets.each do |t| %>
